@@ -1,0 +1,503 @@
+
+.ProjectInfoDiv {
+    background-color: ;
+    border-radius: 25px;
+    padding: 50px;
+
+    background-color: gainsboro;
+    border-radius: 25px;
+}
+
+.ProjectInfoDiv .HorizontalDiv {
+    display: flex;
+    justify-content: space-between;
+}
+
+.TeamAdminListDiv {
+    background-color: grey;
+    border-radius: 25px;
+}
+
+.ViewProjectTeamSection {
+    background-color: grey;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+    border-radius: 20px;
+}
+
+.ViewProjectTeamSection h2 {
+    color: white;
+}
+
+.ViewProjectTeamSection p {
+    color: white;
+    font-size: 24px;
+}
+
+.ViewProjectTeamSection li {
+    color: white;
+    font-size: 18px;
+}
+
+.ProjectViewList {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.MyProjectsSection h2 {
+    color: white;
+}
+
+.TeamListDiv, .AdminListDiv {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.JoinTeamButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+
+    font-size: 16px;
+    
+}
+.LeaveTeamButton{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+    margin-left: 20px;
+    border-radius: 15px;
+}
+
+
+.ProjectView {
+    /* prevents piecewise overflow into next column */
+    display: inline-block; 
+    padding: 10px;
+    border-radius: 15px;
+
+    margin: 20px;
+    background-color: whitesmoke;
+
+}
+
+#browsePage {
+    background-color: rgb(50, 50, 50);
+    border-radius: 25px;
+}
+
+.AuthorButtonDiv {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    background-color: gainsboro;
+
+    padding: 5px;
+
+    border-radius: 10px;
+}
+
+.AuthorButtonDiv p {
+    font-size: 12px;
+    margin-right: 10px;
+}
+
+.ProjectView .ProjectAuthorPicture {
+    padding-top: 10px;
+}
+
+.MyProjectsSection {
+    background-color: rgb(50, 50, 50);;
+    padding: 20px;
+    border-radius: 35px;
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.ProjectName {
+    font-weight: bold;
+    flex: 1; 
+    font-size: 42px;
+}
+
+.ProjectDescription {
+    font-style: italic;
+    font-size: 24px;
+}
+
+.LabelText {
+    color: grey
+}
+
+.SelectedItemList {
+    padding-left: 5px;
+    align-items: center;
+}
+
+.StarIconDiv {
+    /* position at top of container */
+    position: absolute;
+    top: -10px;
+    left: 5px;
+}
+
+.LearnMoreButtonDiv {
+}
+
+.MoreInfoButton {
+    background-color: #4CAF50; /* Green */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    width: 100%;
+    border-radius: 15px;
+}
+
+.ProjectPagePicture {
+    padding: 20px;
+    border-radius: 30px;
+}
+
+.GotoWorkButton{
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 600;
+    width: 100%;
+    min-width: 300px;
+    border-radius: 15px;
+}
+
+
+.TextButtonDiv {
+    background-color:green;
+    display: inline-block;
+    border-radius: 20px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+.TextButtonText {
+    color: white;
+    font-weight: 600;
+}
+
+.NewProjectForm {
+    background-color: gainsboro;
+    padding: 30px;
+    border-radius: 25px;
+}
+
+.NewProjectForm input {
+    width: 100%;
+    min-height: 40px;
+    margin-top: 5px;
+}
+.NewProjectForm textarea {
+    width: 100%;
+    min-height: 40px;
+    margin-top: 5px;
+}
+.NewProjectForm select {
+    width: 100%;
+    min-height: 40px;
+    margin-top: 5px;
+}
+
+.NewProjectForm label {
+    font-size: 24;
+}
+
+.NewProjectForm .FormInputDiv {
+    margin-top: 20px;
+    margin-bottom: 20px; 
+}
+
+.LaunchProjectButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    width: 100%;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+
+.TaskListButton .TextButtonDiv {
+    background-color: white;
+    width: 200px;
+    margin-bottom: 10px;
+
+}
+
+#InfoDiv {
+    width: 100%;
+}
+
+#KanbanBoard {
+    background-color: rgb(50, 50, 50);
+    height: 500px; 
+    padding: 20px;
+}
+
+
+.MyStickieDiv {
+    min-height: 150px;
+    background-color:pink;
+    margin: 10px;
+    border-radius: 30px;
+
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+    padding-left: 3px;
+    padding-right: 3px;
+}
+
+.NotMyStickieDiv {
+    min-height: 150px;
+    background-color: yellow;
+    margin: 10px;
+    border-radius: 30px;
+    align-content: center;
+    padding-top: 5px;
+    padding-bottom: 10px;
+
+}
+
+
+.StickieText {
+    font-size: 24px;
+    font-weight: 700;
+    padding-top: 20px;
+}
+
+.StickiesDiv {
+    columns: auto 4;
+}
+
+
+.StickiesColumn {
+    background-color: darkgray;
+    align-items: center;
+    text-align: center;
+    height: 500px;
+
+    border-radius: 15px;
+
+}
+
+/* First column is rendered too low from an untrackable bug. hardcoded a fix */
+.FirstStickiesColumn {
+   margin-top: -17px;
+}
+
+.ColumnTitle {
+    font-weight: bold;
+    color: rgb(50, 50, 50);
+    font-size: 18px;
+    padding-top: 20px;
+    padding-bottom: 5px;
+}
+
+.StickiesList {
+    overflow: auto;
+    height: 437px;
+}
+
+.NotMyStickieDiv .HorizontalDiv {
+    width: 100%;
+    justify-content: space-around;
+}
+
+.MyStickieDiv .HorizontalDiv {
+    width: 100%;
+    justify-content: space-around;
+}
+
+/* stickies buttons */
+.ContributeButton {
+    background-color: lightskyblue;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.CancelButton {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.SubmitButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.DenyButton {
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+.AcceptButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 15px;
+}
+
+
+.FormInputDiv {
+    width: 100%;
+}
+
+.FormInputDiv input {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    box-sizing: border-box;
+}
+
+.FormInputDiv textarea {
+    font-size: 16px;
+    width: 100%;
+    height: 100px;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.TaskListButton {
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+#featureName {
+    font-weight: bold;
+    font-size: 28px;
+    text-align: center;
+}
+#featureDescription {
+    text-align: center;
+    font-style: italic;
+    padding-bottom: 20px;
+    font-size: 18px;
+}
+
+.MyAdminStatus {
+    font-size: 18px;
+    color: black;
+}
+
+.ProjectView .HorizontalDiv {
+    width: 100%;
+    justify-content: space-around;
+
+}
+
+#developProjectPage {
+    background-color: gainsboro;
+    border-radius: 35px;
+    padding: 25px;
+}
+
+.TeamListDiv, .AdminListDiv {
+    width: 100%;
+
+    flex: 1;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.InDevFeatureButton, .DoneFeatureButton {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 25px; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.InDevFeatureButton {
+    background-color: orange;
+}
+
+.DoneFeatureButton {
+    background-color: lightskyblue
+}
+
+.SubmitFeatureButton {
+    width: 100%;
+    min-height: 50px;
+    border-radius: 25px; 
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    background-color: #4CAF50;
+}

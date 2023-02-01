@@ -1,0 +1,18 @@
+
+.SelectedItem {
+    font-weight: bold;
+    color: green;
+
+    padding-right: 5px;
+}
+
+.UnselectedItem {
+    padding-right: 5px;
+}
+
+.SelectedItemList {
+    /* layout content horizontally */
+    display: flex;
+    flex-direction: row;
+    
+}

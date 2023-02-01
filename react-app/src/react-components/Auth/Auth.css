@@ -1,0 +1,92 @@
+#navBar .LoginButton {
+    background-color: transparent;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+#navBar .LogoutButton {
+    background-color: orange;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+}
+
+.AuthFormContainer .LoginButton {
+    background-color: green;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+
+.AuthFormContainer .RegisterButton {
+    background-color: darkslategrey;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 20px;
+}
+
+.AuthFormContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: whitesmoke;
+    border-radius: 35px;
+    min-height: 800px;
+}
+
+.AuthFormContainer .LoginButton {
+    width: 100%;
+}
+
+.LoginForm, .RegisterForm {
+    width: 50%;
+}
+
+.FormInputDiv {
+    width: 100%;
+}
+
+
+.RegisterPage .RegisterButton {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    border-radius: 20px;
+    width: 100%;
+}
+
+input, select {
+    width: 100%;
+    padding: 12px 20px;
+    font-size: 16px;
+    margin: 8px 0;
+
+    border: 2px solid grey;
+    border-radius: 4px;
+}
